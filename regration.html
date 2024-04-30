@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blood Donor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+<body>
+	<img class="wave" src="./img/logwave.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/logbg.svg" alt="Background Image">
+		</div>
+		<div class="login-content">
+			<form class="login" action="/login" method="POST">
+                <!-- <img src="./img/logavatar.svg" alt="Avatar Image">
+                <h2 class="title">Welcome</h2> -->
+            
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Full Name</h5>
+                        <input class="input" type="text" name="full_name" id="full_name" value="">
+                    </div>
+                </div>
+            
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-address-card"></i>
+                    </div>
+                    <div class="div">
+                        <h5> Current Full Address</h5>
+                        <input class="input" type="text" name="full_address" id="full_address" value="">
+                    </div>
+                </div>
+            
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Phone Number</h5>
+                        <input class="input" type="tel" name="phone_number" id="phone_number" value="" maxlength="10">
+                    </div>
+                </div>
+            
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Blood Group</h5>
+                        <input class="input" type="text" name="blood_group" id="blood_group" value="">
+                        
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" class="input" name="password" id="password" value="">
+                    </div>
+                </div>
+            
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" class="input" name="password" id="password" value="">
+                    </div>
+                </div>
+            
+                <input type="hidden" name="_csrf" value="">
+                <input type="submit" class="btn" value="Submit">
+            </form>
+            
+
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

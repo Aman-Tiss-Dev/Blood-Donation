@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard</title>
+    <meta
+      name="description"
+      content="BloodDrop is an platform to help people to find blood donar"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700, 600,500,400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <script src="main.js" defer></script>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <section class="main">
+      <div class="header">
+        <div class="logo">
+          <i class="fa fa-tachometer"></i>
+          <span>BloodBank</span>
+        </div>
+        <a href="#" class="nav-trigger"><span></span></a>
+      </div>
+      <div class="side-nav">
+        <div class="logo">
+          <i class="fa fa-tachometer"></i>
+          <span>BloodBank</span>
+        </div>
+        <nav>
+          <ul>
+            <li class="tablinks active" onclick="openTab(event, 'dash')">
+              <a href="#">
+                <span><i class="fas fa-chart-pie"></i></span>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li class="tablinks" onclick="openTab(event, 'availabel')">
+              <a href="#">
+                <span><i class="far fa-bookmark"></i></span>
+                <span>Availabel Blood</span>
+              </a>
+            </li>
+            <li class="tablinks" onclick="openTab(event, 'bags')">
+                <a href="#">
+                  <span><i class="fas fa-plus-circle"></i></span>
+                  <span>Need Blood</span>
+                </a>
+              </li>
+              <li class="tablinks" onclick="openTab(event, 'bags')">
+                <a href="#">
+                  <span><i class="fas fa-user-plus"></i></span>
+                  <span>Donars</span>
+                </a>
+              </li>
+              <li class="tablinks" onclick="openTab(event, 'bloodDonar')">
+                <a href="#">
+                  <span><i class="fas fa-sign-out-alt"></i></span>
+                  <span>Log Out</span>
+                </a>
+              </li>
+          </ul>
+        </nav>
+        </div>
+          <!-- end header -->
+      <!-- start dash -->
+
+      <div class="main-content" id="dash">
+        <div class="title">
+          <h3 class="title__h3">dashboard</h3>
+          <p class="title__p">welcome name</p>
+        </div>
+        <div class="main tabcontent"> 
+        </div>
+      </div>
+      <!-- end dash -->
+      </section>
+    </body>
+</html>
